@@ -1,0 +1,278 @@
+[
+  {
+    "semantic_id": "VYB_001",
+    "title": "Weightless",
+    "artist": "Marconi Union",
+    "mood": [
+      "calm",
+      "peaceful",
+      "dreamy"
+    ],
+    "genre": [
+      "ambient",
+      "electronic"
+    ],
+    "activity": [
+      "study",
+      "focus",
+      "relax"
+    ],
+    "energy": "low",
+    "popularity": 72,
+    "symbol": "◌",
+    "color": "blue"
+  },
+  {
+    "semantic_id": "VYB_002",
+    "title": "The Night We Met",
+    "artist": "Lord Huron",
+    "mood": [
+      "nostalgic",
+      "emotional",
+      "melancholic"
+    ],
+    "genre": [
+      "indie folk",
+      "alternative"
+    ],
+    "activity": [
+      "late night",
+      "drive",
+      "reflect"
+    ],
+    "energy": "low",
+    "popularity": 86,
+    "symbol": "☾",
+    "color": "purple"
+  },
+  {
+    "semantic_id": "VYB_003",
+    "title": "A Walk",
+    "artist": "Tycho",
+    "mood": [
+      "dreamy",
+      "calm",
+      "uplifting"
+    ],
+    "genre": [
+      "downtempo",
+      "electronic"
+    ],
+    "activity": [
+      "study",
+      "drive",
+      "focus"
+    ],
+    "energy": "medium",
+    "popularity": 68,
+    "symbol": "✧",
+    "color": ""
+  },
+  {
+    "semantic_id": "VYB_004",
+    "title": "Says",
+    "artist": "Nils Frahm",
+    "mood": [
+      "reflective",
+      "emotional",
+      "cinematic"
+    ],
+    "genre": [
+      "neo-classical",
+      "ambient"
+    ],
+    "activity": [
+      "study",
+      "relax",
+      "reflect"
+    ],
+    "energy": "low",
+    "popularity": 61,
+    "symbol": "⌁",
+    "color": "blue"
+  },
+  {
+    "semantic_id": "VYB_005",
+    "title": "Open Eye Signal",
+    "artist": "Jon Hopkins",
+    "mood": [
+      "immersive",
+      "focused",
+      "intense"
+    ],
+    "genre": [
+      "electronic",
+      "techno"
+    ],
+    "activity": [
+      "workout",
+      "focus",
+      "drive"
+    ],
+    "energy": "high",
+    "popularity": 58,
+    "symbol": "◈",
+    "color": "purple"
+  },
+  {
+    "semantic_id": "VYB_006",
+    "title": "Sunset Lover",
+    "artist": "Petit Biscuit",
+    "mood": [
+      "warm",
+      "dreamy",
+      "happy"
+    ],
+    "genre": [
+      "electronic",
+      "chill"
+    ],
+    "activity": [
+      "drive",
+      "relax",
+      "hangout"
+    ],
+    "energy": "medium",
+    "popularity": 89,
+    "symbol": "☼",
+    "color": "orange"
+  },
+  {
+    "semantic_id": "VYB_007",
+    "title": "Holocene",
+    "artist": "Bon Iver",
+    "mood": [
+      "introspective",
+      "peaceful",
+      "melancholic"
+    ],
+    "genre": [
+      "indie folk",
+      "indie"
+    ],
+    "activity": [
+      "late night",
+      "reflect",
+      "study"
+    ],
+    "energy": "low",
+    "popularity": 82,
+    "symbol": "❋",
+    "color": "blue"
+  },
+  {
+    "semantic_id": "VYB_008",
+    "title": "Innerbloom",
+    "artist": "RÜFÜS DU SOL",
+    "mood": [
+      "euphoric",
+      "dreamy",
+      "emotional"
+    ],
+    "genre": [
+      "electronic",
+      "house"
+    ],
+    "activity": [
+      "drive",
+      "workout",
+      "hangout"
+    ],
+    "energy": "high",
+    "popularity": 80,
+    "symbol": "✺",
+    "color": "purple"
+  },
+  {
+    "semantic_id": "VYB_009",
+    "title": "Midnight City",
+    "artist": "M83",
+    "mood": [
+      "nostalgic",
+      "energetic",
+      "dreamy"
+    ],
+    "genre": [
+      "synth-pop",
+      "electronic"
+    ],
+    "activity": [
+      "late night",
+      "drive",
+      "party"
+    ],
+    "energy": "high",
+    "popularity": 91,
+    "symbol": "✦",
+    "color": "blue"
+  },
+  {
+    "semantic_id": "VYB_010",
+    "title": "Cherry Wine",
+    "artist": "Hozier",
+    "mood": [
+      "soft",
+      "emotional",
+      "intimate"
+    ],
+    "genre": [
+      "indie folk",
+      "acoustic"
+    ],
+    "activity": [
+      "late night",
+      "relax",
+      "reflect"
+    ],
+    "energy": "low",
+    "popularity": 84,
+    "symbol": "♡",
+    "color": "orange"
+  },
+  {
+    "semantic_id": "VYB_011",
+    "title": "A Moment Apart",
+    "artist": "ODESZA",
+    "mood": [
+      "cinematic",
+      "uplifting",
+      "focused"
+    ],
+    "genre": [
+      "electronic",
+      "downtempo"
+    ],
+    "activity": [
+      "study",
+      "drive",
+      "focus"
+    ],
+    "energy": "medium",
+    "popularity": 77,
+    "symbol": "△",
+    "color": "blue"
+  },
+  {
+    "semantic_id": "VYB_012",
+    "title": "Go!",
+    "artist": "The Chemical Brothers",
+    "mood": [
+      "motivated",
+      "energetic",
+      "confident"
+    ],
+    "genre": [
+      "electronic",
+      "dance"
+    ],
+    "activity": [
+      "workout",
+      "gym",
+      "running"
+    ],
+    "energy": "high",
+    "popularity": 74,
+    "symbol": "⚡",
+    "color": "orange"
+  }
+]

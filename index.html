@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="theme-color" content="#101010" />
+  <meta name="description" content="VYBORA — music that understands your moment." />
+  <title>VYBORA — Find your frequency</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+  <div class="ambient ambient-one"></div>
+  <div class="ambient ambient-two"></div>
+
+  <header class="topbar">
+    <a class="brand" href="#" aria-label="VYBORA home">
+      <span class="brand-mark" aria-hidden="true"><span></span><span></span><span></span><span></span></span>
+      <span>vybora<span class="brand-ai">.ai</span></span>
+    </a>
+    <nav class="top-nav" aria-label="Main navigation">
+      <a class="active" href="#discover">Discover</a>
+      <a href="#how-it-works">How it works</a>
+    </nav>
+    <div class="topbar-right">
+      <span class="status-dot"></span><span class="status-label">AI music discovery</span>
+      <div class="avatar" title="Demo profile">D</div>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero" id="discover">
+      <div class="eyebrow"><span class="sparkle">✦</span> YOUR SOUND, YOUR MOMENT</div>
+      <h1>Find the music<br>that <span class="gradient-text">gets you.</span></h1>
+      <p class="hero-copy">Don't search by genre. Search by feeling.<br>Tell VYBORA what's on your mind.</p>
+
+      <form class="prompt-card" id="search-form">
+        <label class="sr-only" for="mood-prompt">Describe the music you want</label>
+        <div class="prompt-icon" aria-hidden="true">✧</div>
+        <textarea id="mood-prompt" rows="2" maxlength="300" placeholder="e.g. Calm music for a late-night study session..." required></textarea>
+        <div class="prompt-bottom">
+          <span class="prompt-hint"><span class="key-icon">↵</span> Be as specific as you like</span>
+          <button class="primary-btn" id="discover-btn" type="submit">
+            <span>Discover</span><span class="arrow">↗</span>
+          </button>
+        </div>
+      </form>
+
+      <div class="suggestions">
+        <span class="suggestion-label">TRY THESE</span>
+        <button class="prompt-chip" type="button" data-prompt="Songs for a quiet rainy evening, mellow and nostalgic">☁️ Rainy evening</button>
+        <button class="prompt-chip" type="button" data-prompt="High-energy tracks to get me focused and motivated at the gym">⚡ Gym energy</button>
+        <button class="prompt-chip" type="button" data-prompt="Dreamy indie music for a midnight drive">🌙 Midnight drive</button>
+      </div>
+    </section>
+
+    <section class="results-section" id="results" aria-live="polite">
+      <div class="section-heading">
+        <div>
+          <div class="eyebrow">CURATED FOR YOUR CURRENT MOOD</div>
+          <h2>Your next <span class="gradient-text">soundtrack.</span></h2>
+        </div>
+        <div class="mode-switch" role="group" aria-label="Recommendation mode">
+          <button class="mode-btn active" type="button" data-mode="familiar">♡ Familiar</button>
+          <button class="mode-btn" type="button" data-mode="discover">✦ Explore</button>
+        </div>
+      </div>
+
+      <div class="empty-state" id="empty-state">
+        <div class="empty-orbit"><span>♫</span></div>
+        <h3>Your soundtrack is waiting.</h3>
+        <p>Describe a mood above and we'll find tracks that fit the moment.</p>
+      </div>
+
+      <div class="results-meta hidden" id="results-meta">
+        <span id="result-summary">Showing recommendations</span>
+        <span class="result-count" id="result-count"></span>
+      </div>
+      <div class="track-grid" id="track-grid"></div>
+      <div class="demo-note hidden" id="demo-note">Preview mode: the backend isn't connected yet, so these are sample results.</div>
+    </section>
+
+    <section class="how-section" id="how-it-works">
+      <div class="eyebrow">BEYOND THE ALGORITHM</div>
+      <h2>Music discovery, <span class="gradient-text">with intention.</span></h2>
+      <div class="feature-grid">
+        <article class="feature-card"><div class="feature-icon">⌕</div><h3>Speak naturally</h3><p>Describe your mood, activity, or the moment you're in. No genre knowledge needed.</p></article>
+        <article class="feature-card"><div class="feature-icon">◈</div><h3>Understand the vibe</h3><p>Each track is matched through its mood, energy, activity, and semantic identity.</p></article>
+        <article class="feature-card"><div class="feature-icon">✧</div><h3>Choose your comfort zone</h3><p>Stay close to familiar sounds or explore artists and styles beyond your usual taste.</p></article>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <a class="brand footer-brand" href="#"><span class="brand-mark"><span></span><span></span><span></span><span></span></span><span>vybora<span class="brand-ai">.ai</span></span></a>
+    <span>Made for the moments words can't quite describe.</span>
+    <span class="footer-tag">OPEN INNOVATION · 2026</span>
+  </footer>
+
+  <div class="toast" id="toast" role="status" aria-live="polite"></div>
+  <script src="js/api.js"></script>
+  <script src="js/app.js"></script>
+</body>
+</html>
